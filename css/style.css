@@ -1,0 +1,159 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%; /* 10px = 1rem */
+  font-weight: 400;
+  color: #fff;
+  height: 100%;
+  background-image: linear-gradient(
+    to right top,
+    #060606,
+    #050504,
+    #030303,
+    #020201,
+    #000000
+  );
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  border-radius: 5rem;
+  padding: 1rem 3rem;
+  color: inherit;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 130rem;
+  margin: 0 auto;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  padding: 4rem 11rem 4rem 8rem;
+  z-index: 10;
+}
+
+.header__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav a:not(:last-child) {
+  margin-right: 7.1rem;
+}
+
+.header__nav {
+  font-size: 1.6rem;
+}
+
+.header__logo {
+  width: 4rem;
+  height: 4rem;
+  display: block;
+}
+
+.header__button {
+  margin-left: 55.3rem;
+  background: linear-gradient(142deg, #c89afc 0%, #7c6afa 100%);
+  font-weight: 400;
+}
+
+.main-display__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.main-display {
+  padding-top: 27rem;
+}
+
+.main-display .container {
+  position: relative;
+  z-index: 10;
+}
+
+.main-display__header {
+  font-size: 6.4rem;
+  margin-bottom: 5rem;
+}
+
+.main-display__timer {
+  display: flex;
+  margin-bottom: 7.6rem;
+}
+
+.timer__item {
+  width: 10.2rem;
+  height: 11.2rem;
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer__item:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.timer__count {
+  font-size: 3.6rem;
+}
+
+.timer__text {
+  font-size: 1.6rem;
+  opacity: 0.4;
+}
+
+.main-display__button {
+  background: linear-gradient(141deg, #df5950 0%, #451046 100%);
+}
