@@ -116,11 +116,6 @@ h6 {
   justify-content: space-between;
 }
 
-.header__menu {
-  display: flex;
-  align-items: center;
-}
-
 .header__nav a:not(:last-child) {
   margin-right: 7.1rem;
 }
@@ -137,7 +132,6 @@ h6 {
 }
 
 .header__button {
-  margin-left: 55.3rem;
   background: linear-gradient(142deg, #c89afc 0%, #7c6afa 100%);
   font-weight: 400;
 }
@@ -227,16 +221,18 @@ h6 {
   display: flex;
   align-items: center;
   margin-bottom: 4.9rem;
-  margin-left: -3rem;
+  margin-left: 0.5rem;
 }
 
 .process__img {
-  width: 12.7rem;
-  height: 12.7rem;
+  width: 10.5rem;
+  height: 6rem;
 }
 
 .process__img img {
   rotate: 45deg;
+  width: 9rem;
+  height: 4rem;
 }
 
 .process__description {
